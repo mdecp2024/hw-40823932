@@ -39,14 +39,6 @@
 <h2>HW 1 Exam</h2>
 <p>每六人為一組進行協同程式練習</p>
 <p>透過 Jupyterlab 協同網頁, 輪流指定各組編寫 Topic 1 相關的程式練習, 以及網頁內容 (localhost 與 Codespaces 環境)編輯.</p>
-<h2>W 1</h2>
-<p>介紹課程內容，須帶物品，及課程目的</p>
-<h2>W 2</h2>
-<p>建立個人倉儲，練習更改個人網站</p>
-<h2>W 3</h2>
-<p><span data-teams="true"><span class="ui-provider ly nu nv nw nx ny nz oa ob oc od oe of og oh oi oj ok ol om on oo op oq or os ot ou ov ow ox oy oz pa pb" dir="ltr">安裝 Codespaces 所需的 Python 模組</span></span></p>
-<p>建立隨身碟<span data-teams="true"><span class="ui-provider ly nu nv nw nx ny nz oa ob oc od oe of og oh oi oj ok ol om on oo op oq or os ot ou ov ow ox oy oz pa pb" dir="ltr">利用批次檔下載可攜環境至 C:\</span></span></p>
-<p><span data-teams="true"><span class="ui-provider ly nu nv nw nx ny nz oa ob oc od oe of og oh oi oj ok ol om on oo op oq or os ot ou ov ow ox oy oz pa pb" dir="ltr"></span></span></p>
 <h1>HW 2</h1>
 <h4>主題: Python 的數列、判斷式與重複迴圈 (20%)<span style="background-color: #ffff99;"><br/></span></h4>
 <p style="padding-left: 30px;">Python 課程教材: <a href="https://www.learnpythonwithjupyter.com/">https://www.learnpythonwithjupyter.com/</a> - PART 2 and Part 3</p>
@@ -77,6 +69,30 @@
 <h2>HW 4 Exam</h2>
 <p>每六人為一組進行協同程式練習</p>
 <p>透過 Jupyterlab 協同網頁, 輪流指定各組編寫 HW 4 相關的程式練習, 以及網頁內容 (localhost 與 Codespaces 環境)編輯.</p>
+<p></p>
+<h2>day 1</h2>
+<p>介紹課程內容，須帶物品，及課程目的</p>
+<h2>day2</h2>
+<p>建立個人倉儲，練習更改個人網站</p>
+<h2>day 3</h2>
+<p><span data-teams="true"><span class="ui-provider ly nu nv nw nx ny nz oa ob oc od oe of og oh oi oj ok ol om on oo op oq or os ot ou ov ow ox oy oz pa pb" dir="ltr">1.安裝 Codespaces 所需的 Python 模組</span></span></p>
+<p>2.建立隨身碟<span data-teams="true"><span class="ui-provider ly nu nv nw nx ny nz oa ob oc od oe of og oh oi oj ok ol om on oo op oq or os ot ou ov ow ox oy oz pa pb" dir="ltr">利用批次檔下載可攜環境至 C:\</span></span></p>
+<p><span data-teams="true"><span class="ui-provider ly nu nv nw nx ny nz oa ob oc od oe of og oh oi oj ok ol om on oo op oq or os ot ou ov ow ox oy oz pa pb" dir="ltr"></span></span>3.選擇其中一個命令提示字元視窗 輸入 cd notebook 後, 電腦回應如下</p>
+<p>Y:\notebook&gt;</p>
+<p>再輸入 jupyter lab --collaborative</p>
+<p>就可以選擇用 edge 開啟<span> </span><a href="http://localhost:8888/lab/">http://localhost:8888/lab/</a></p>
+<h2>day5</h2>
+<ol>
+<li>下載 <a href="http://229.cycu.org/python_2025_lite.7z">python_2025_lite.7z</a> (可攜程式環境)</li>
+<li>下載<span> </span><a href="https://mde.tw/cp2024/downloads/zmq_remote_api_ex_cube_triangle.7z">zmq_remote_api_ex_cube_triangle.7z</a> (利用 Python 控制模擬場景中的物件)</li>
+<li>進入可攜程式環境中 data/CoppeliaSim 目錄, 開啟 coppeliaSim.exe (機電整合模擬程式,<span> </span><a href="https://github.com/CoppeliaRobotics">原始碼</a>)</li>
+<li>啟動可攜程式環境, 雙點擊 start_ipv6.bat, 系統會啟動四個命令列, 兩個 SciTE 編輯器</li>
+<li>執行場景控制程式前, 先處理操作系統的防火牆, 將下列指令存為 .bat 檔案後, 以管理員身分執行, 以便開啟 23000-23050 埠號進出:</li>
+<li>netsh advfirewall firewall add rule name="allow_23000-23050" dir=in action=allow protocol=TCP localport=23000-23050<br/>netsh advfirewall firewall add rule name="allow_23000-23050" dir=out action=allow protocol=TCP localport=23000-23050</li>
+<li>開啟 CoppeliaSim 中的視覺串流伺服器: Modules - Connectivity - Visualization stream</li>
+<li>利用 SciTE 開啟 put_cubes_into_scene_1.py, 利用 Tools - Go 執行操控程式</li>
+<li>使用者可以透過瀏覽器, 以模擬場景所在電腦的 IP, 且埠號為 23020 觀看模擬場景</li>
+</ol>
 <h1>Final Report</h1>
 <p>期末口頭與書面專題報告 (20%)</p>
 <p>期末口頭專題報告影片:</p>
